@@ -13,7 +13,8 @@ import java.time.Duration;
 public class ScrollDemo extends BaseTestClass{
     @BeforeMethod
     public void beforeMethod() {
-        driver.get("https://www.w3schools.com/xml/xpath_syntax.asp");
+        //changed url to another one
+        driver.get("https://www.w3schools.com/xml/xpath_operators.asp");
     }
 
 
